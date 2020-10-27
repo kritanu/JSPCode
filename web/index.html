@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comercio Registration</title>
+    <link rel = "icon" href =
+    "https://library.kissclipart.com/20180902/avw/kissclipart-letter-c-logo-design-clipart-graphic-design-logo-eae34485f5130c7a.jpg"
+    type = "image/x-icon"> 
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    <script src='validate.js'></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h2>Comercio Registration</h2></div>
+
+        <form id="form" class="reg-form" action="jsp1.jsp">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="ABC123" id="username" name="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" placeholder="abc@srmist.edu.in" id="email" name="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="phone">Phone</label>
+                <input type="text" placeholder="xxxx-xxx-xxx" id="phone" name="phone"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" placeholder="******" id="password" name="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Re-Type Password</label>
+                <input type="password" placeholder="******" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <input type="submit" value="Submit"  />
+<!--            <button type="button" onclick="checkInputs()">Create Account</button>-->
+        </form>
+    </div>
+</body>
+</html>
